@@ -13,11 +13,12 @@ body{
   text-align: center;
 }
 
-#lightBulb{
-
-}
-
 #lightSwitch{
   width: 50px;
   vertical-align: middle;
+}
+
+#wandImage{
+width: 100px;
+float:left;
 }
