@@ -15,7 +15,7 @@ $( document ).ready(function() {
       lightSwitch.src="../images/onSwitch.png";
       lightBulb.src="../images/lightOn.png"
     }
-
+ 
     else{
       lightSwitch.src="../images/offSwitch.png";
       lightBulb.src="../images/lightOff.png"
@@ -25,9 +25,9 @@ $( document ).ready(function() {
   $(lightBulb).mouseenter(
     function(){
     wandImg.style.display = "block";
+    transform: 'rotate(' + 100 + 'deg)',
     $('#wandImage').animate({
     width: "50%",
-    transform: 'rotate(' + 100 + 'deg)',
   }, 1000 );
     lightBulb = document.getElementById('lightBulb');
     lightBulb.src="../images/lightOn.png";
