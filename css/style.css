@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   background-color: #000;
 }
@@ -21,3 +22,29 @@ body{
   width: 50px;
   vertical-align: middle;
 }
+=======
+body{
+  background-color: #000;
+}
+
+#title{
+  color: #fff;
+  text-align: center;
+}
+
+#lightDiv{
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#lightSwitch{
+  width: 50px;
+  vertical-align: middle;
+}
+
+#wandImage{
+width: 100px;
+float:left;
+}
+>>>>>>> d481f57a0a6c7ff6b01dfdc90879fccff425cab8
