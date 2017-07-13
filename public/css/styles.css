@@ -157,6 +157,19 @@ nav{
   width: 200px;
 }
 
+#journalDiv{
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
+
+.aboutMeP2{
+  margin: auto;
+  padding: 10px;
+  text-align:center;
+  width: 500px;
+}
+
 #aboutMeTitle{
   text-align: center;
   margin-top: 100px;
